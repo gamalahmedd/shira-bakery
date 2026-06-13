@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shiraa Bakery — Cookies & More</title>
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Nunito:wght@400;600;700;800&family=Dancing+Script:wght@700&display=swap" rel="stylesheet"/>
+  <!-- Our Framework -->
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- ═══ Animated Background ═══ -->
+  <div class="bg-canvas" id="bgCanvas"></div>
+
+  <!-- ═══ NAVBAR ═══ -->
+  <nav class="navbar navbar-expand-lg fixed-top py-2">
+    <div class="container">
+      <a class="navbar-brand" href="#">Shiraa <span>Bakery</span></a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <i class="fa-solid fa-bars" style="color:#c0306a; font-size:1.3rem;"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2 py-3 py-lg-0">
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <a class="btn-order nav-link" href="#social">Order Now 🍪</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 hero-text reveal">
+          <div class="hero-eyebrow">✨ Made with Love · Beni Suef, Egypt</div>
+          <h1>
+            Sweet <span class="accent">Dreams</span><br/>Baked to Life
+          </h1>
+          <p class="hero-sub">
+            Welcome to <strong>Shiraa Bakery</strong> — a sweet patisserie where every bite is a warm hug.
+            Artisan cookies, decadent pastries, and more, handcrafted fresh daily with the finest ingredients.
+          </p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#social" style="display:inline-flex; align-items:center; gap:.5rem; text-decoration:none; color:var(--brown-mid); font-weight:700; padding:.7rem 0;">
+              Follow Us <i class="fa-solid fa-arrow-right" style="font-size:.85rem;"></i>
+            </a>
+          </div>
+          <div class="hero-stats mt-4">
+            <div class="hero-stat">
+              <strong>500+</strong>
+              <span>Happy Customers</span>
+            </div>
+            <div class="hero-stat">
+              <strong>30+</strong>
+              <span>Cookie Flavors</span>
+            </div>
+            <div class="hero-stat">
+              <strong>100%</strong>
+              <span>Handmade Daily</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-logo reveal" style="transition-delay:.2s">
+          <img src="./img/shira.png"
+               onerror="this.onerror=null; this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22440%22 height=%22440%22 viewBox=%220 0 440 440%22><circle cx=%22220%22 cy=%22220%22 r=%22200%22 fill=%22%23fce4ec%22 stroke=%22%23f8c8d8%22 stroke-width=%224%22/><text x=%22220%22 y=%22200%22 text-anchor=%22middle%22 font-family=%22Georgia,serif%22 font-size=%2260%22 fill=%22%23c0306a%22>Shiraa</text><text x=%22220%22 y=%22260%22 text-anchor=%22middle%22 font-family=%22Georgia,serif%22 font-size=%2222%22 fill=%22%234a2000%22>Cookies %26 More</text><text x=%22220%22 y=%22310%22 text-anchor=%22middle%22 font-size=%2248%22>🍪</text></svg>'"
+               alt="Shiraa Bakery Logo" class="d-block mx-auto"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ QUOTE RIBBON ═══ -->
+  <div class="ribbon">
+    <div class="container">
+      <blockquote>"Life is short — eat the cookie first."</blockquote>
+      <cite>— The Shiraa Bakery Philosophy</cite>
+    </div>
+  </div>
+
+  <!-- ═══ SOCIAL / FIND US ═══ -->
+  <section class="section-social py-5" id="social" style="padding-top:5rem; padding-bottom:5rem;">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="title-line d-block mx-auto mb-3"></span>
+        <h2 class="section-title">Find <span class="accent">Us Online</span></h2>
+        <p class="mt-3 mx-auto" style="max-width:520px; color:var(--brown-mid); font-size:1.05rem; line-height:1.75;">
+          Follow our baking journey, place orders, and get the first scoop on new flavors and special offers!
+        </p>
+      </div>
+
+      <div class="social-grid reveal">
+        <a href="https://facebook.com/profile.php?id=61590971662450" target="_blank" rel="noopener" class="social-btn fb">
+          <i class="fa-brands fa-facebook-f"></i>
+          <div>
+            <span class="s-label">Find us on</span>
+            <span class="s-name">Facebook</span>
+          </div>
+        </a>
+        <a href="https://instagram.com/shiraa.bakery" target="_blank" rel="noopener" class="social-btn ig">
+          <i class="fa-brands fa-instagram"></i>
+          <div>
+            <span class="s-label">Follow us on</span>
+            <span class="s-name">Instagram</span>
+          </div>
+        </a>
+        <a href="https://tiktok.com/@shiraa.bakery" target="_blank" rel="noopener" class="social-btn tk">
+          <i class="fa-brands fa-tiktok"></i>
+          <div>
+            <span class="s-label">Watch us on</span>
+            <span class="s-name">TikTok</span>
+          </div>
+        </a>
+        <a href="https://wa.me/201033452734" target="_blank" rel="noopener" class="social-btn wa">
+          <i class="fa-brands fa-whatsapp"></i>
+          <div>
+            <span class="s-label">Order via</span>
+            <span class="s-name">WhatsApp</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- WhatsApp CTA -->
+      <div class="text-center mt-5 reveal">
+        <p style="color:var(--brown-mid); font-weight:700; font-size:1.05rem; margin-bottom:1rem;">
+          Ready to place an order? Message us directly!
+        </p>
+        <a href="https://wa.me/201033452734" target="_blank" rel="noopener"
+           style="display:inline-flex; align-items:center; gap:.75rem; background:#25d366; color:#fff; text-decoration:none; padding:.9rem 2.5rem; border-radius:50px; font-weight:800; font-size:1.05rem; transition:transform .2s, box-shadow .2s;"
+           onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 10px 30px rgba(37,211,102,.35)';"
+           onmouseout="this.style.transform=''; this.style.boxShadow='';">
+          <i class="fa-brands fa-whatsapp" style="font-size:1.4rem;"></i>
+          Chat with Shiraa
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <div class="brand">Shiraa Bakery</div>
+    <p style="color:#f8c8d8; font-style:italic; margin-top:.25rem;">Cookies & More · Made with Love · Baked to Make You Smile</p>
+    <p style="margin-top:1rem;">© 2026 Shiraa Bakery. All rights reserved. <span class="hearts">♥</span></p>
+    <div style="margin-top:1.25rem; display:flex; justify-content:center; gap:1.25rem;">
+      <a href="https://facebook.com/profile.php?id=61590971662450" target="_blank" rel="noopener" style="color:#f8c8d8; font-size:1.3rem;"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://instagram.com/shiraa.bakery" target="_blank" rel="noopener" style="color:#f8c8d8; font-size:1.3rem;"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://tiktok.com/@shiraa.bakery" target="_blank" rel="noopener" style="color:#f8c8d8; font-size:1.3rem;"><i class="fa-brands fa-tiktok"></i></a>
+      <a href="https://wa.me/201033452734" target="_blank" rel="noopener" style="color:#f8c8d8; font-size:1.3rem;"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Our JS -->
+  <script src="./js/script.js"></script>
+  <script> </script>
+</body>
+</html>
