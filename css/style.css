@@ -189,8 +189,8 @@
     
     /* ─── QUOTE RIBBON ─── */
     .ribbon {
-      background: linear-gradient(135deg, #c0306a 0%, #e91e8c 50%, #b5651d 100%);
-      color: #fff;
+      background: radial-gradient(ellipse at 60% 40%, #ffe0ee 0%, #fff5f7 60%, #ffe8d6 100%);
+      color: var(--brown-dark);
       padding: 3.5rem 0;
       text-align: center;
       position: relative;
